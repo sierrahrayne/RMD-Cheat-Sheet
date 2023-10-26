@@ -1,0 +1,33 @@
+---
+title: "RMD Cheat Sheet"
+author: "Sierrah Mueller"
+date: "2023-10-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Main Header {.tabset}
+
+## Nest Under Main
+
+**Bold text like this**
+*Italic text like this*
+
+ordered list 
+1. one 
+2. two
+3. three
+
+
+Nested Ordered List
+1. One
+2. Two
+
+- bullet point of two
+
+
+
+
