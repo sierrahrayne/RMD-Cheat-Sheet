@@ -9,9 +9,20 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Main Header {.tabset}
+# Main Header- Title {.tabset}
 
-## Nest Under Main
+## Nest Under Main- Section X
+
+This is my introduction
+
+```{r chunk-x}
+
+```
+
+### Third level header- Subsection 1
+
+### Third level header - Subsection 2
+
 
 **Bold text like this**
 *Italic text like this*
@@ -28,6 +39,14 @@ Nested Ordered List
 
 - bullet point of two
 
+* unordered list
+* item 2
+ + sub-item 1
+ + sub-item 2
 
 
+
+```{r include = FALSE}
+#include = FALSE  prevents code and results from appearing in the finished file. R Markdown still runs the code in the chunk, and the results can be used by other chunks
+```
 
